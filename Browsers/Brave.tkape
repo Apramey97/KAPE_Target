@@ -135,13 +135,7 @@ Targets:
          Category: Communications
          Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
          FileMask: Trust Tokens*
-
-      - 
-         Name: Brave Network Persistent State
-         Category: Communications
-         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Sync Data
-         FileMask: SyncData.sqlite3
-
+         
       - 
          Name: Brave Visited Links
          Category: Communications
