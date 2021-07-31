@@ -1,2 +1,2 @@
 # KAPE_Target
-This repository contains the target files(tkape) created by me 
+This repository contains the target files(tkape) for Kroll Artifact Parser and Extractor - KAPE
