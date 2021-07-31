@@ -1,0 +1,168 @@
+Description: Brave-Browser
+Author: Apramey Shurpali
+Version: 1.2
+Id: b2a2a57d-2dab-4d31-a659-53d490c439c7
+RecreateDirectories: true
+Targets:
+      -
+         Name: Brave bookmarks
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Bookmarks*
+
+      -
+         Name: Brave Cookies
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Cookies*
+
+      -
+         Name: Brave History
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: History*
+
+      -
+         Name: Brave Favicons
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Favicons*
+
+      -
+         Name: Brave Login Data
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Login Data
+
+      -
+         Name: Brave Media History 
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Media History
+
+      -
+         Name: Brave Network Action Predictor
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Network Action Predictor
+
+      -
+         Name: Brave Network Persistent State
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Network Persistent State
+
+      - 
+         Name: Brave Current Session
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Current Session
+
+      -
+         Name: Brave Current Tabs
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Current Tabs
+
+      - 
+         Name: Brave Download Metadata
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Download Metadata
+
+      -
+         Name: Brave Extension Cookies
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Extension Cookies
+
+      -
+         Name: Brave Last Session
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Last Session
+
+      - 
+         Name: Brave Last Tabs
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Last Tabs
+
+      -
+         Name: Brave Network Sessions Folder
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Sessions\
+         Recursive: false
+
+      -
+         Name: Brave Media History
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Media History*
+
+      -
+         Name: Brave Preferences
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Preferences
+
+      - 
+         Name: Brave Quota Manager
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: QuotaManager
+
+      -
+         Name: Brave Reporting and NEL
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Reporting and NEL
+
+      - 
+         Name: Brave Shortcuts
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Shortcuts*
+
+      -
+         Name: Brave Top Sites
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Top Sites* 
+
+      - 
+         Name: Brave Trust Tokens
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Trust Tokens*
+
+      - 
+         Name: Brave Network Persistent State
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Sync Data
+         FileMask: SyncData.sqlite3
+
+      - 
+         Name: Brave Visited Links
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Visited Links
+
+      -
+         Name: Brave Web Data
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\
+         FileMask: Web Data*        
+
+      -
+         Name: Brave Cache Folder
+         Category: Communications
+         Path: C:\Users\%user%\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Cache\
+         Recursive: true
+
+      -
+         Name: Windows Protect Folder
+         Category: FileSystem
+         Path: C:\Users\%user%\AppData\Roaming\Microsoft\Protect\*\
+         Recursive: true
+         Comment: "Required for offline decryption"
